@@ -1,0 +1,14 @@
+<svg preserveAspectRatio="none" overflow="visible" style="display: block;" width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Media Icons/Country" clip-path="url(#clip0_0_48)">
+<path id="Vector" d="M120 240C186.274 240 240 186.274 240 120C240 53.7258 186.274 0 120 0C53.7258 0 0 53.7258 0 120C0 186.274 53.7258 240 120 240Z" fill="#F0F0F0"/>
+<g id="Group">
+<path id="Vector_2" d="M0 120C0 171.596 32.565 215.581 78.2611 232.537V7.46437C32.565 24.4191 0 68.4047 0 120V120Z" fill="#6DA544"/>
+<path id="Vector_3" d="M240 120C240 68.4047 207.435 24.4191 161.739 7.46438V232.537C207.435 215.581 240 171.596 240 120V120Z" fill="#6DA544"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_0_48">
+<rect width="240" height="240" fill="white"/>
+</clipPath>
+</defs>
+</svg>

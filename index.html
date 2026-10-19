@@ -1,0 +1,778 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Expendi — Earn, Automate and Manage your Digital Assets</title>
+  <meta name="description" content="Expendi helps you budget, save, and automate payments using smart contracts so your money works exactly how you want." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700;9..40,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- ============ NAV (fixed; turns to glass on scroll) ============ -->
+  <nav class="nav" aria-label="Main">
+    <div class="nav__inner">
+      <a class="logo" href="#" aria-label="Expendi home">
+        <span class="logo__icon" aria-hidden="true">
+          <span class="logo__part logo__part--1"><img src="assets/icons/logo-part-1.svg" alt="" /></span>
+          <span class="logo__part logo__part--2"><span><img src="assets/icons/logo-part-2.svg" alt="" /></span></span>
+          <span class="logo__part logo__part--3"><span><img src="assets/icons/logo-part-3.svg" alt="" /></span></span>
+        </span>
+        <span class="logo__type">Expendi</span>
+      </a>
+
+      <ul class="nav__links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Business</a></li>
+        <li><a href="#">Affiliate</a></li>
+        <li><a href="#">Support</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+
+      <a class="btn-primary nav__cta" href="#">
+        <span class="btn-primary__label">Download App</span>
+        <span class="btn-primary__arrow"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+      </a>
+
+      <button type="button" class="nav__menu-btn" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <img src="assets/icons/menu.svg" alt="" />
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobile-menu" hidden>
+      <a href="#">Home</a>
+      <a href="#">Business</a>
+      <a href="#">Affiliate</a>
+      <a href="#">Support</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </nav>
+
+  <!-- ============ HERO ============ -->
+  <header class="hero">
+    <div class="hero__art" aria-hidden="true">
+      <img class="hero__glow" src="assets/images/hero-glow.svg" alt="" />
+      <div class="hero__glass">
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+    </div>
+
+    <div class="hero__content">
+      <span class="badge">
+        <img src="assets/icons/shield-check.svg" alt="" />
+        <span>Trusted by <strong>1900+</strong> members across <strong>6+</strong> countries</span>
+      </span>
+      <h1 class="hero__title">Earn, Automate and Manage your <span>Digital Assets—Securely</span></h1>
+      <p class="hero__text">Expendi helps you budget, save, and automate payments using smart contracts so your money works exactly how you want.</p>
+      <a class="btn-primary hero__cta" href="#">
+        <img class="btn-primary__stores" src="assets/icons/app-stores.svg" alt="" />
+        <span class="btn-primary__label">Download App</span>
+        <span class="btn-primary__arrow"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+      </a>
+    </div>
+
+    <div class="hero__stage">
+      <div class="phone-wrap">
+        <div class="phone" role="img" aria-label="Expendi app wallet screen showing a 5,012.16 USDC balance">
+          <!-- Body -->
+          <div class="phone__frame-outer"></div>
+          <div class="phone__frame"></div>
+
+          <!-- Screen -->
+          <div class="screen">
+            <div class="status-bar">
+              <span class="status-bar__time">9:41</span>
+              <div class="status-bar__levels">
+                <img class="status-bar__cell" src="assets/phone/cellular.svg" alt="" />
+                <img class="status-bar__wifi" src="assets/phone/wifi.svg" alt="" />
+                <span class="status-bar__battery"></span>
+                <span class="status-bar__capacity"></span>
+                <img class="status-bar__cap" src="assets/phone/battery-cap.svg" alt="" />
+              </div>
+            </div>
+
+            <div class="app-nav">
+              <div class="app-nav__user">
+                <img class="app-nav__avatar" src="assets/phone/avatar.jpg" alt="" />
+                <div>
+                  <p class="app-nav__hello">Hello, John</p>
+                  <p class="app-nav__handle">@docofdesigns.eth</p>
+                </div>
+              </div>
+              <div class="app-nav__actions">
+                <img src="assets/phone/icon-scan.svg" alt="" />
+                <span class="app-nav__bell">
+                  <img src="assets/phone/icon-bell.svg" alt="" />
+                  <span class="app-nav__badge">2</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="wallet">
+              <div class="wallet__tabs"><span class="is-active">Wallet</span><span>Portfolio</span></div>
+              <div class="wallet__card">
+                <div class="wallet__noise"></div>
+                <div class="wallet__body">
+                  <div class="wallet__top">
+                    <div>
+                      <p class="wallet__address">Address - 0xBE82.....Dcd5 <img src="assets/phone/icon-copy.svg" alt="" /></p>
+                      <p class="wallet__value">5,012.16 USDC <img src="assets/phone/icon-eye-closed.svg" alt="" /></p>
+                      <p class="wallet__updated">Last updated 2 secs ago.</p>
+                    </div>
+                    <span class="wallet__chain">USDC (Base)</span>
+                  </div>
+                  <div class="wallet__buttons">
+                    <span class="wallet__btn wallet__btn--fund"><img src="assets/phone/icon-plus.svg" alt="" />Fund</span>
+                    <span class="wallet__btn wallet__btn--send"><img src="assets/phone/icon-send.svg" alt="" />Send</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="sheet">
+              <div class="sheet__header">
+                <p>Pockets</p>
+                <img src="assets/phone/icon-chevron-right.svg" alt="" />
+              </div>
+              <div class="pockets">
+                <div class="pocket pocket--green">
+                  <img class="pocket__art pocket__art--rent" src="assets/phone/pocket-house-rent.svg" alt="" />
+                  <p class="pocket__name">House Rent</p>
+                  <p class="pocket__balance">220.04 USDC</p>
+                </div>
+                <div class="pocket pocket--purple">
+                  <img class="pocket__art pocket__art--emergency" src="assets/phone/pocket-emergency.svg" alt="" />
+                  <p class="pocket__name">Emergency Funds</p>
+                  <p class="pocket__balance">125.10 USDC</p>
+                </div>
+                <div class="pocket pocket--teal">
+                  <p class="pocket__name">Miscellanous</p>
+                  <p class="pocket__balance">94.45 USDC</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Hardware details -->
+          <span class="phone__antenna phone__antenna--bottom"></span>
+          <span class="phone__antenna phone__antenna--left-bottom"></span>
+          <span class="phone__antenna phone__antenna--left-top"></span>
+          <span class="phone__antenna phone__antenna--right-bottom"></span>
+          <span class="phone__antenna phone__antenna--right"></span>
+          <span class="phone__antenna phone__antenna--top"></span>
+          <span class="phone__speaker"></span>
+          <span class="phone__btn phone__btn--minus"></span>
+          <span class="phone__btn phone__btn--plus"></span>
+          <span class="phone__btn phone__btn--silence"></span>
+          <span class="phone__btn phone__btn--power"></span>
+          <span class="phone__island"></span>
+          <img class="phone__lens-ring" src="assets/phone/lens-1.svg" alt="" />
+          <span class="phone__lens"><img src="assets/phone/lens.png" alt="" /></span>
+          <img class="phone__lens-line" src="assets/phone/camera-line.svg" alt="" />
+        </div>
+      </div>
+
+      <div class="stat-card stat-card--charges">
+        <p class="stat-card__label">No hidden charges</p>
+        <p class="stat-card__value">0%</p>
+      </div>
+      <div class="stat-card stat-card--secured">
+        <p class="stat-card__label">Secured &amp; Transparent</p>
+        <p class="stat-card__value">100%</p>
+      </div>
+      <div class="stat-card stat-card--usdc">
+        <p class="stat-card__label">Earn up to 22% interest on your USDC</p>
+        <p class="stat-card__value">22%</p>
+      </div>
+      <div class="stat-card stat-card--stablecoin">
+        <p class="stat-card__label">Earn up to 22% interest on your stablecoin</p>
+        <p class="stat-card__value">22%</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ BENEFITS ============ -->
+    <section class="benefits" aria-labelledby="benefits-title">
+      <div class="section-head">
+        <span class="badge">
+          <img src="assets/benefits/icon-sparkle.svg" alt="" />
+          <span>Why use Expendi?</span>
+        </span>
+        <h2 class="section-head__title" id="benefits-title">The smart way to manage your digital money</h2>
+        <p class="section-head__text">Expendi helps you budget, automate, and grow your digital assets from one powerful app—built for clarity, control, and ease.</p>
+      </div>
+
+      <div class="benefits__grid">
+        <div class="benefits__row">
+          <article class="benefit-card benefit-card--green">
+            <div class="benefit-card__text">
+              <h3>Send to friends in seconds</h3>
+              <p>Send funds instantly to friends from your contact list.</p>
+            </div>
+            <img class="benefit-card__media" src="assets/benefits/send-friends.png" alt="Smiling woman with headphones sending money from her phone" loading="lazy" />
+          </article>
+
+          <article class="benefit-card benefit-card--blue">
+            <div class="benefit-card__text">
+              <h3>Payments on Autopilot</h3>
+              <p>Set rules once and let payments run automatically, right on schedule.</p>
+            </div>
+            <img class="benefit-card__media" src="assets/benefits/autopilot.png" alt="Recurring payments flowing to Vacation, House Rent, Transport, Groceries, Utilities and Insurance" loading="lazy" />
+          </article>
+
+          <article class="benefit-card benefit-card--purple">
+            <div class="benefit-card__text">
+              <h3>Split bills, stress-free</h3>
+              <p>Divide expenses with friends and everyone pays their share in seconds.</p>
+            </div>
+            <img class="benefit-card__media" src="assets/benefits/split-bills.png" alt="Three friends laughing while looking at a phone together" loading="lazy" />
+          </article>
+        </div>
+
+        <article class="benefit-card benefit-card--pink">
+          <img class="flag flag--uganda" src="assets/benefits/flag-uganda.svg" alt="" />
+          <img class="flag flag--drc" src="assets/benefits/flag-drc.png" alt="" />
+          <img class="flag flag--ethiopia" src="assets/benefits/flag-ethiopia.svg" alt="" />
+          <img class="flag flag--ghana" src="assets/benefits/flag-ghana.svg" alt="" />
+          <img class="flag flag--nigeria" src="assets/benefits/flag-nigeria.svg" alt="" />
+          <img class="flag flag--kenya" src="assets/benefits/flag-kenya.svg" alt="" />
+          <div class="benefit-card__text">
+            <h3>Send Across Borders</h3>
+            <p>Transfer money to different countries quickly and securely, without the usual friction.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ FEATURES ============ -->
+    <section class="features" data-step="0" aria-labelledby="features-title">
+      <div class="features__track">
+      <div class="features__pin">
+      <div class="section-head">
+        <span class="badge">
+          <img src="assets/features/icon-rocket.svg" alt="" />
+          <span>What sets Expendi apart?</span>
+        </span>
+        <h2 class="section-head__title" id="features-title">Everything you need to stay in control</h2>
+        <p class="section-head__text">Expendi gives you powerful tools designed to help you manage, automate, and understand your digital money.</p>
+      </div>
+
+      <div class="features__body">
+        <ul class="features__list">
+          <li>
+            <button type="button" class="feature-tab is-active" aria-pressed="true">
+              <span class="feature-tab__title">Programmable Budgets</span>
+              <span class="feature-tab__text">Allocate funds into pockets and let smart contracts control spending automatically.</span>
+            </button>
+            <!-- Mobile only: this feature's phone screen -->
+            <div class="feature-card__phone">
+              <img src="assets/features/screen-budgets.png" alt="Pockets screen with budget categories like Insurance, Charity, Clothing and Gym" loading="lazy" />
+            </div>
+          </li>
+          <li>
+            <button type="button" class="feature-tab" aria-pressed="false">
+              <span class="feature-tab__title">Automated Payments</span>
+              <span class="feature-tab__text">Set up recurring payments for bills and subscriptions without manual effort.</span>
+            </button>
+            <!-- Mobile only: this feature's phone screen -->
+            <div class="feature-card__phone">
+              <img src="assets/features/screen-payments.png" alt="Recurring payment type picker: Crypto-Fiat or Crypto-Crypto transfer" loading="lazy" />
+            </div>
+          </li>
+          <li>
+            <button type="button" class="feature-tab" aria-pressed="false">
+              <span class="feature-tab__title">Flexible Savings Plans</span>
+              <span class="feature-tab__text">Choose from flexible, fixed, goal-based, or automated savings options that fit your needs.</span>
+            </button>
+            <!-- Mobile only: this feature's phone screen -->
+            <div class="feature-card__phone">
+              <img src="assets/features/screen-savings.png" alt="Saving plans screen with Flex Plan and Fixed Plan" loading="lazy" />
+            </div>
+          </li>
+          <li>
+            <button type="button" class="feature-tab" aria-pressed="false">
+              <span class="feature-tab__title">Smart Investment Options</span>
+              <span class="feature-tab__text">Earn yield on supported assets with simple, risk-aware investment options.</span>
+            </button>
+            <!-- Mobile only: this feature's phone screen -->
+            <div class="feature-card__phone">
+              <img src="assets/features/screen-investments.png" alt="Vetted investment opportunities with yields, like Moonwell Flagship and Steakhouse" loading="lazy" />
+            </div>
+          </li>
+        </ul>
+
+        <div class="features__visual">
+          <div class="features__phone">
+          <div class="phone" role="img" aria-label="Expendi app wallet screen with pockets, transactions and savings">
+            <!-- Body -->
+            <div class="phone__frame-outer"></div>
+            <div class="phone__frame"></div>
+
+            <!-- Screen -->
+            <div class="screen">
+              <div class="status-bar">
+                <span class="status-bar__time">9:41</span>
+                <div class="status-bar__levels">
+                  <img class="status-bar__cell" src="assets/phone/cellular.svg" alt="" />
+                  <img class="status-bar__wifi" src="assets/phone/wifi.svg" alt="" />
+                  <span class="status-bar__battery"></span>
+                  <span class="status-bar__capacity"></span>
+                  <img class="status-bar__cap" src="assets/phone/battery-cap.svg" alt="" />
+                </div>
+              </div>
+
+              <div class="app-nav">
+                <div class="app-nav__user">
+                  <img class="app-nav__avatar" src="assets/phone/avatar.jpg" alt="" />
+                  <div>
+                    <p class="app-nav__hello">Hello, John</p>
+                    <p class="app-nav__handle">@docofdesigns.eth</p>
+                  </div>
+                </div>
+                <div class="app-nav__actions">
+                  <img src="assets/phone/icon-scan.svg" alt="" />
+                  <span class="app-nav__bell">
+                    <img src="assets/phone/icon-bell.svg" alt="" />
+                    <span class="app-nav__badge">2</span>
+                  </span>
+                </div>
+              </div>
+
+              <div class="wallet">
+                <div class="wallet__tabs"><span class="is-active">Wallet</span><span>Portfolio</span></div>
+                <div class="wallet__card">
+                  <div class="wallet__noise"></div>
+                  <div class="wallet__body">
+                    <div class="wallet__top">
+                      <div>
+                        <p class="wallet__address">Address - 0xBE82.....Dcd5 <img src="assets/phone/icon-copy.svg" alt="" /></p>
+                        <p class="wallet__value">5,012.16 USDC <img src="assets/phone/icon-eye-closed.svg" alt="" /></p>
+                        <p class="wallet__updated">Last updated 2 secs ago.</p>
+                      </div>
+                      <span class="wallet__chain">USDC (Base)</span>
+                    </div>
+                    <div class="wallet__buttons">
+                      <span class="wallet__btn wallet__btn--fund"><img src="assets/phone/icon-plus.svg" alt="" />Fund</span>
+                      <span class="wallet__btn wallet__btn--send"><img src="assets/phone/icon-send.svg" alt="" />Send</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="sheet">
+                <div class="sheet__header">
+                  <p>Pockets</p>
+                  <img src="assets/phone/icon-chevron-right.svg" alt="" />
+                </div>
+                <div class="pockets">
+                  <div class="pocket pocket--green">
+                    <img class="pocket__art pocket__art--rent" src="assets/phone/pocket-house-rent.svg" alt="" />
+                    <p class="pocket__name">House Rent</p>
+                    <p class="pocket__balance">220.04 USDC</p>
+                  </div>
+                  <div class="pocket pocket--purple">
+                    <img class="pocket__art pocket__art--emergency" src="assets/phone/pocket-emergency.svg" alt="" />
+                    <p class="pocket__name">Emergency Funds</p>
+                    <p class="pocket__balance">125.10 USDC</p>
+                  </div>
+                  <div class="pocket pocket--teal">
+                    <p class="pocket__name">Miscellanous</p>
+                    <p class="pocket__balance">94.45 USDC</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Feature screens: one per tab, shown as the user scrolls -->
+            <div class="screen-states">
+              <img class="screen-state" src="assets/features/screen-budgets.png" alt="Pockets screen with budget categories like Insurance, Charity, Clothing and Gym" />
+              <img class="screen-state" src="assets/features/screen-payments.png" alt="Recurring payment type picker: Crypto-Fiat or Crypto-Crypto transfer" />
+              <img class="screen-state" src="assets/features/screen-savings.png" alt="Saving plans screen with Flex Plan and Fixed Plan" />
+              <img class="screen-state" src="assets/features/screen-investments.png" alt="Vetted investment opportunities with yields, like Moonwell Flagship and Steakhouse" />
+            </div>
+
+            <!-- Hardware details -->
+            <span class="phone__antenna phone__antenna--bottom"></span>
+            <span class="phone__antenna phone__antenna--left-bottom"></span>
+            <span class="phone__antenna phone__antenna--left-top"></span>
+            <span class="phone__antenna phone__antenna--right-bottom"></span>
+            <span class="phone__antenna phone__antenna--right"></span>
+            <span class="phone__antenna phone__antenna--top"></span>
+            <span class="phone__speaker"></span>
+            <span class="phone__btn phone__btn--minus"></span>
+            <span class="phone__btn phone__btn--plus"></span>
+            <span class="phone__btn phone__btn--silence"></span>
+            <span class="phone__btn phone__btn--power"></span>
+            <span class="phone__island"></span>
+            <img class="phone__lens-ring" src="assets/phone/lens-1.svg" alt="" />
+            <span class="phone__lens"><img src="assets/phone/lens.png" alt="" /></span>
+            <img class="phone__lens-line" src="assets/phone/camera-line.svg" alt="" />
+          </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </section>
+
+    <!-- ============ METRICS ============ -->
+    <section class="metrics" aria-labelledby="metrics-title">
+      <div class="section-head">
+        <span class="badge">
+          <img src="assets/metrics/icon-chart.svg" alt="" />
+          <span>Expendi at a glance</span>
+        </span>
+        <h2 class="section-head__title" id="metrics-title">Numbers that speak for themselves</h2>
+        <p class="section-head__text">Key metrics that reflect real usage, real impact, and growing adoption across the Expendi ecosystem.</p>
+      </div>
+
+      <dl class="metrics__list">
+        <div class="metric">
+          <dt class="metric__label">Transactions Completed</dt>
+          <dd class="metric__value">400+</dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">Return on Investment</dt>
+          <dd class="metric__value">600%</dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">Global Downloads</dt>
+          <dd class="metric__value">10k</dd>
+        </div>
+        <div class="metric">
+          <dt class="metric__label">5-Star Reviews</dt>
+          <dd class="metric__value">200+</dd>
+        </div>
+      </dl>
+    </section>
+
+    <!-- ============ TESTIMONIAL ============ -->
+    <section class="testimonial" aria-labelledby="testimonial-title">
+      <div class="section-head">
+        <span class="badge">
+          <img src="assets/testimonials/icon-quote.svg" alt="" />
+          <span>What Expendi users are saying</span>
+        </span>
+        <h2 class="section-head__title" id="testimonial-title">Trusted by users who value control</h2>
+        <p class="section-head__text">Hear from people using Expendi to manage their digital money with clarity and confidence daily.</p>
+      </div>
+
+      <div class="testimonial__stage">
+        <!-- Arc of user avatars; an orange highlight travels along it and the
+             quote below shows the highlighted person's testimonial -->
+        <div class="testimonial__arc" aria-hidden="true">
+          <svg class="testimonial__line" viewBox="0 0 1200 271.833" preserveAspectRatio="none">
+            <path class="testimonial__line-base" d="M14.31 257.53 C32.19 244.71 82.86 204.48 121.61 180.63 C160.36 156.79 199.40 134.13 246.79 114.45 C294.19 94.78 347.24 74.52 405.96 62.60 C464.68 50.68 534.72 42.92 599.10 42.92 C663.48 42.92 733.53 50.68 792.25 62.60 C850.97 74.52 904.02 94.78 951.41 114.45 C998.81 134.13 1037.55 156.79 1076.60 180.63 C1115.65 204.48 1167.51 244.71 1185.70 257.53" />
+            <path class="testimonial__line-highlight" d="M14.31 257.53 C32.19 244.71 82.86 204.48 121.61 180.63 C160.36 156.79 199.40 134.13 246.79 114.45 C294.19 94.78 347.24 74.52 405.96 62.60 C464.68 50.68 534.72 42.92 599.10 42.92 C663.48 42.92 733.53 50.68 792.25 62.60 C850.97 74.52 904.02 94.78 951.41 114.45 C998.81 134.13 1037.55 156.79 1076.60 180.63 C1115.65 204.48 1167.51 244.71 1185.70 257.53" />
+          </svg>
+          <span class="testimonial-avatar is-active" style="--cx: 1.192%; --cy: 94.737%; --size: 2.385%; --bg: #d1e2e7;"
+                data-name="Aysha Becker" data-role="Product Designer" data-quote="I set up pockets for rent, food and travel in minutes. Now I always know exactly what I can spend.">
+            <img src="assets/testimonials/avatar-8.png" alt="" />
+          </span>
+          <span class="testimonial-avatar" style="--cx: 10.134%; --cy: 66.449%; --size: 3.577%; --bg: #cfcbdc;"
+                data-name="Owen Harding" data-role="Small Business Owner" data-quote="Paying suppliers used to eat up my Mondays. With recurring payments, it simply happens on schedule.">
+            <img src="assets/testimonials/avatar-7.png" alt="" />
+          </span>
+          <span class="testimonial-avatar" style="--cx: 20.566%; --cy: 42.105%; --size: 4.769%; --bg: #c7d1b0;"
+                data-name="Adem Lane" data-role="Software Engineer" data-quote="Smart contracts enforcing my budget sounded complicated. Expendi makes it feel like moving money between folders.">
+            <img src="assets/testimonials/avatar-4.png" alt="" />
+          </span>
+          <span class="testimonial-avatar" style="--cx: 33.830%; --cy: 23.028%; --size: 5.961%; --bg: #c6d0cb;"
+                data-name="Zaynab Donnelly" data-role="Graduate Student" data-quote="Splitting rent with my flatmates is finally drama-free. Everyone pays their share and we can all see it.">
+            <img src="assets/testimonials/avatar-3.png" alt="" />
+          </span>
+          <span class="testimonial-avatar" style="--cx: 49.925%; --cy: 15.789%; --size: 7.154%; --bg: #ffece5;"
+                data-name="Genevieve Mclean" data-role="Web3 Freelancer" data-quote="Expendi changed how I manage my crypto. I no longer guess where my money goes—everything is structured, automated, and clear.">
+            <img src="assets/testimonials/avatar-1.png" alt="" />
+          </span>
+          <span class="testimonial-avatar" style="--cx: 66.021%; --cy: 23.028%; --size: 5.961%; --bg: #f1e7da;"
+                data-name="Nicolas Wang" data-role="Crypto Investor" data-quote="Earning yield on idle USDC without leaving the app is a game changer. The options are clear and easy to compare.">
+            <img src="assets/testimonials/avatar-2.png" alt="" />
+          </span>
+          <span class="testimonial-avatar" style="--cx: 79.285%; --cy: 42.105%; --size: 4.769%; --bg: #d7e3e8;"
+                data-name="Rhianna Shepard" data-role="Marketing Lead" data-quote="The savings vaults keep me honest. I set money aside for my goals and watch it grow automatically.">
+            <img src="assets/testimonials/avatar-5.png" alt="" />
+          </span>
+          <span class="testimonial-avatar" style="--cx: 89.717%; --cy: 66.449%; --size: 3.577%; --bg: #d1d2e3;"
+                data-name="Abraham Baker" data-role="Remote Contractor" data-quote="I get paid by clients abroad and send money home in seconds. No more waiting days or losing it to fees.">
+            <img src="assets/testimonials/avatar-6.png" alt="" />
+          </span>
+          <span class="testimonial-avatar" style="--cx: 98.808%; --cy: 94.737%; --size: 2.385%; --bg: #e5ddce;"
+                data-name="Adil Floyd" data-role="Startup Founder" data-quote="Expendi gives my team one clear view of where our digital money goes. It&#x27;s the control we were missing.">
+            <img src="assets/testimonials/avatar-9.png" alt="" />
+          </span>
+        </div>
+
+        <figure class="testimonial__quote">
+          <blockquote>
+            <p class="testimonial__text">I set up pockets for rent, food and travel in minutes. Now I always know exactly what I can spend.</p>
+          </blockquote>
+          <figcaption>
+            <span class="testimonial__name">Aysha Becker</span>
+            <span class="testimonial__role">Product Designer</span>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" aria-labelledby="faq-title">
+      <div class="section-head">
+        <span class="badge">
+          <img src="assets/faq/icon-question.svg" alt="" />
+          <span>Still curious about Expendi?</span>
+        </span>
+        <h2 class="section-head__title" id="faq-title">Frequently asked questions</h2>
+        <p class="section-head__text">Discover quick answers to common questions about Expendi, ensuring a smooth and confident experience.</p>
+      </div>
+
+      <div class="faq__list">
+        <div class="faq-item is-open">
+          <h3 class="faq-item__heading">
+            <button type="button" class="faq-item__trigger" id="faq-q1" aria-expanded="true" aria-controls="faq-a1">
+              <span>Do I need to be a crypto expert to use Expendi?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <img class="faq-item__plus" src="assets/faq/icon-plus.svg" alt="" />
+                <img class="faq-item__minus" src="assets/faq/icon-minus.svg" alt="" />
+              </span>
+            </button>
+          </h3>
+          <div class="faq-item__panel" id="faq-a1" role="region" aria-labelledby="faq-q1">
+            <div class="faq-item__answer">
+              <p>No. Expendi is designed to be simple and intuitive, even if you’re new to crypto. Advanced features work quietly in the background.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-item__heading">
+            <button type="button" class="faq-item__trigger" id="faq-q2" aria-expanded="false" aria-controls="faq-a2">
+              <span>What assets and networks does Expendi support?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <img class="faq-item__plus" src="assets/faq/icon-plus.svg" alt="" />
+                <img class="faq-item__minus" src="assets/faq/icon-minus.svg" alt="" />
+              </span>
+            </button>
+          </h3>
+          <div class="faq-item__panel" id="faq-a2" role="region" aria-labelledby="faq-q2">
+            <div class="faq-item__answer">
+              <p>Expendi currently supports USDC and other major stablecoins on Base, with more assets and networks being added over time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-item__heading">
+            <button type="button" class="faq-item__trigger" id="faq-q3" aria-expanded="false" aria-controls="faq-a3">
+              <span>Is Expendi free to use?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <img class="faq-item__plus" src="assets/faq/icon-plus.svg" alt="" />
+                <img class="faq-item__minus" src="assets/faq/icon-minus.svg" alt="" />
+              </span>
+            </button>
+          </h3>
+          <div class="faq-item__panel" id="faq-a3" role="region" aria-labelledby="faq-q3">
+            <div class="faq-item__answer">
+              <p>Yes. Downloading Expendi and setting up your wallet is free. Some on-chain actions may carry small network fees, which are always shown before you confirm.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-item__heading">
+            <button type="button" class="faq-item__trigger" id="faq-q4" aria-expanded="false" aria-controls="faq-a4">
+              <span>Is my money safe on Expendi?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <img class="faq-item__plus" src="assets/faq/icon-plus.svg" alt="" />
+                <img class="faq-item__minus" src="assets/faq/icon-minus.svg" alt="" />
+              </span>
+            </button>
+          </h3>
+          <div class="faq-item__panel" id="faq-a4" role="region" aria-labelledby="faq-q4">
+            <div class="faq-item__answer">
+              <p>Expendi is non-custodial, so you stay in control of your funds. Smart contracts enforce the rules you set, and we never hold your money.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-item__heading">
+            <button type="button" class="faq-item__trigger" id="faq-q5" aria-expanded="false" aria-controls="faq-a5">
+              <span>How is Expendi different from traditional budgeting apps?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <img class="faq-item__plus" src="assets/faq/icon-plus.svg" alt="" />
+                <img class="faq-item__minus" src="assets/faq/icon-minus.svg" alt="" />
+              </span>
+            </button>
+          </h3>
+          <div class="faq-item__panel" id="faq-a5" role="region" aria-labelledby="faq-q5">
+            <div class="faq-item__answer">
+              <p>Traditional apps only track spending after it happens. Expendi uses smart contracts to enforce your budgets, automate payments and grow your savings in real time.</p>
+            </div>
+          </div>
+        </div>
+        <div class="faq-item">
+          <h3 class="faq-item__heading">
+            <button type="button" class="faq-item__trigger" id="faq-q6" aria-expanded="false" aria-controls="faq-a6">
+              <span>How does Expendi help me manage my assets?</span>
+              <span class="faq-item__icon" aria-hidden="true">
+                <img class="faq-item__plus" src="assets/faq/icon-plus.svg" alt="" />
+                <img class="faq-item__minus" src="assets/faq/icon-minus.svg" alt="" />
+              </span>
+            </button>
+          </h3>
+          <div class="faq-item__panel" id="faq-a6" role="region" aria-labelledby="faq-q6">
+            <div class="faq-item__answer">
+              <p>Organise funds into pockets, automate recurring payments, save towards goals and earn yield, all from one app with a clear view of where your money goes.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <p class="faq__contact">Still have questions? <a href="#">Contact Support</a></p>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="cta__card">
+        <div class="cta__glass" aria-hidden="true">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div class="cta__content">
+          <h2 class="cta__title" id="cta-title">Start managing your money, smarter.</h2>
+          <p class="cta__text">Download the Expendi app and take control of your digital finances today.</p>
+          <a class="btn-primary btn-primary--light cta__button" href="#">
+            <img class="btn-primary__stores" src="assets/cta/app-stores-dark.svg" alt="" />
+            <span class="btn-primary__label">Download App</span>
+            <span class="btn-primary__arrow"><img src="assets/cta/arrow-up-right-white.svg" alt="" /></span>
+          </a>
+        </div>
+
+        <div class="cta__visual">
+          <picture>
+            <source media="(max-width: 767px)" srcset="assets/cta/phones-mobile.jpg" />
+            <img src="assets/cta/phones-desktop.jpg" alt="The Expendi app's wallet screen on two iPhones wrapped in a glowing orange ribbon" loading="lazy" />
+          </picture>
+          <!-- Glow that travels along the orange ribbon (built from the image by JS) -->
+          <span class="cta__glow" aria-hidden="true"></span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__inner">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="logo" href="#" aria-label="Expendi home">
+            <span class="logo__icon" aria-hidden="true">
+              <span class="logo__part logo__part--1"><img src="assets/icons/logo-part-1.svg" alt="" /></span>
+              <span class="logo__part logo__part--2"><span><img src="assets/icons/logo-part-2.svg" alt="" /></span></span>
+              <span class="logo__part logo__part--3"><span><img src="assets/icons/logo-part-3.svg" alt="" /></span></span>
+            </span>
+            <span class="logo__type">Expendi</span>
+          </a>
+          <p class="footer__about">A crypto-native financial management platform designed to bring clarity, control, and automation to digital asset budgeting.</p>
+          <ul class="footer__social" aria-label="Expendi on social media">
+            <li><a href="#" aria-label="X (Twitter)"><img src="assets/footer/icon-x.svg" alt="" /></a></li>
+            <li><a href="#" aria-label="Instagram"><img src="assets/footer/icon-instagram.svg" alt="" /></a></li>
+            <li><a href="#" aria-label="LinkedIn"><img src="assets/footer/icon-linkedin.svg" alt="" /></a></li>
+            <li><a href="#" aria-label="Facebook"><img src="assets/footer/icon-facebook.svg" alt="" /></a></li>
+          </ul>
+        </div>
+
+        <div class="footer__nav">
+          <nav class="footer__col" aria-label="Product">
+            <h3 class="footer__heading">Product</h3>
+            <ul class="footer__links">
+              <li><a href="#">Features</a></li>
+              <li><a href="#">Pricing</a></li>
+              <li><a href="#">How it Works</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__col" aria-label="Company">
+            <h3 class="footer__heading">Company</h3>
+            <ul class="footer__links">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Careers</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Press</a></li>
+            </ul>
+          </nav>
+          <nav class="footer__col" aria-label="Support">
+            <h3 class="footer__heading">Support</h3>
+            <ul class="footer__links">
+              <li><a href="#">Help Center</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">FAQs</a></li>
+              <li><a href="#">Community</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="footer__newsletter">
+          <h3 class="footer__heading">Stay Connected</h3>
+          <p class="footer__newsletter-text">Stay updated with crypto news and platform updates.<br />Subscribe to our newsletter.</p>
+          <form class="footer__form" novalidate>
+            <label class="visually-hidden" for="newsletter-email">Email address</label>
+            <input class="footer__input" id="newsletter-email" type="email" name="email" placeholder="Enter your email" autocomplete="email" required />
+            <button type="submit" class="btn-primary footer__subscribe">
+              <span class="footer__subscribe-main">
+                <img class="footer__subscribe-icon" src="assets/footer/icon-mail.svg" alt="" />
+                <span class="btn-primary__label">Subscribe</span>
+              </span>
+              <span class="btn-primary__arrow"><img src="assets/icons/arrow-up-right.svg" alt="" /></span>
+            </button>
+            <p class="footer__form-message" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p class="footer__copyright">© 2026 Expendi Inc. All rights reserved.</p>
+        <ul class="footer__legal">
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Cookies</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <picture class="footer__wordmark" aria-hidden="true">
+      <source media="(max-width: 767px)" srcset="assets/footer/wordmark-mobile.svg" />
+      <img src="assets/footer/wordmark.svg" alt="" />
+    </picture>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
